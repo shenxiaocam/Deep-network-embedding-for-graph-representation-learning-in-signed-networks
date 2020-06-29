@@ -1,6 +1,6 @@
 Code and Datasets for our paper:
 
-X. Shen and F.-L. Chung, "Deep network embedding for graph representation learning in signed networks," IEEE Transactions on Cybernetics, vol. 50, no. 4, pp. 1556-1568, 2020.  
+**X. Shen and F.-L. Chung, "Deep network embedding for graph representation learning in signed networks," IEEE Transactions on Cybernetics, vol. 50, no. 4, pp. 1556-1568, 2020.**  
 
 
 
@@ -8,7 +8,7 @@ X. Shen and F.-L. Chung, "Deep network embedding for graph representation learni
 
 **Input**:  
 
-Load “.mat” file and get an input matrix “Gwl_ud”: the signed adjacency matrix of a network.
+Load ".mat" file and get an input matrix **Gwl_ud**, i.e., the signed adjacency matrix of a network.
 
 **Hyperparameters**:
 1) beta: ratio of penalty on reconstruction errors of observed connections over that of unobserved connections 
@@ -16,14 +16,14 @@ Load “.mat” file and get an input matrix “Gwl_ud”: the signed adjacency 
 2) r: 
    #positive edges / #negative edges; 
    ratio of penalty for reconstruction errors of negative links over that of positive links;
-   ratio of weight of pairwise constraints for negatively connected nodes over that for positively connected nodes
+   ratio of weight of pairwise constraints on negatively connected nodes over that of positively connected nodes
 
-3) alfa1: weight of pairwise constraints for 1-st layer of SAE
-   alfa2: weight of pairwise constraints for deep layers of SAE
+3) alfa1: weight of pairwise constraints at 1-st layer of SAE
+   alfa2: weight of pairwise constraints at deep layers of SAE
 
 **Output**:  
 
-Low-dimensional node vector representations learned by DNE-SBP are saved at: "rep"  
+Low-dimensional node vector representations learned by DNE-SBP are stored in the variable: **rep**  
 
 
 We test DNE-SBP for link sign prediction & signed network community detection.
@@ -57,5 +57,5 @@ Test examples:
    For example, "numCluster=2:10" indicates the number of clusters can be varied between 2 and 10. 
 
 3) The error rates of signed network clustering are stored in the variable: “errorAllK”, where 
-   each column corresponds to the error rate given a specific number of clusters.
+   each k-th column corresponds to the error rate given a specific number of k clusters.
 
