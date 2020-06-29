@@ -14,8 +14,8 @@ Load ".mat" file and get an input matrix **"Gwl_ud"**, i.e., the signed adjacenc
 **Hyperparameters**:
 1) beta: ratio of penalty on reconstruction errors of observed connections over that of unobserved connections 
 
-2) r: 
-   #positive edges / #negative edges; 
+2) r= #positive edges / #negative edges;   
+   
    ratio of penalty for reconstruction errors of negative links over that of positive links;  
    
    ratio of weight of pairwise constraints on negatively connected nodes over that of positively connected nodes
