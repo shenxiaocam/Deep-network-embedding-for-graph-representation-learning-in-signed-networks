@@ -2,13 +2,14 @@ Code and Datasets for our paper:
 
 **X. Shen and F.-L. Chung, "Deep network embedding for graph representation learning in signed networks," IEEE Transactions on Cybernetics, vol. 50, no. 4, pp. 1556-1568, 2020.**  
 
-
+<p>
 
 **DNE-SBP Model Descriptions**:
+</p>
 
 **Input**:  
 
-Load ".mat" file and get an input matrix **Gwl_ud**, i.e., the signed adjacency matrix of a network.
+Load ".mat" file and get an input matrix **"Gwl_ud"**, i.e., the signed adjacency matrix of a network.
 
 **Hyperparameters**:
 1) beta: ratio of penalty on reconstruction errors of observed connections over that of unobserved connections 
