@@ -5,10 +5,10 @@ X. Shen and F.-L. Chung, "Deep network embedding for graph representation learni
 
 DNE-SBP Model Descriptions:
 
-*** Input
+**Input**
 Load “.mat” file and get an input matrix “Gwl_ud”: the signed adjacency matrix of a network.
 
-*** Hyperparameters
+**Hyperparameters**
 1) beta: ratio of penalty on reconstruction errors of observed connections over that of unobserved connections 
 
 2) r: 
@@ -19,14 +19,14 @@ Load “.mat” file and get an input matrix “Gwl_ud”: the signed adjacency 
 3) alfa1: weight of pairwise constraints for 1-st layer of SAE
    alfa2: weight of pairwise constraints for deep layers of SAE
 
-*** Output:
-Embedding node vector representations learned by our DNE-SBP model: "rep"
+**Output**
+Low-dimensional node vector representations learned by DNE-SBP are saved at: "rep"
 
 
 We test DNE-SBP for link sign prediction & signed network community detection.
 
 
-*** Link sign prediction:
+**Link sign prediction**
 The function DNESBP_LP() in file “DNESBP_LP.m" can generate low-dimensional node vector representations for link sign prediction
 Test examples:
 
@@ -44,7 +44,7 @@ Test examples:
 
 
 
-*** Signed network community detection:
+**Signed network community detection**
 The function DNESBP_CD() in file “DNESBP_CD.m" can generate low-dimensional node vector representations for signed network community detection
 Test examples:
 
