@@ -32,7 +32,8 @@ Low-dimensional node vector representations learned by DNE-SBP are stored in the
 We test DNE-SBP for link sign prediction & signed network community detection.
 
 
-**Link sign prediction** : 
+**Link sign prediction** :   
+
 The function **DNESBP_LP()** in file “DNESBP_LP.m" can generate low-dimensional node vector representations for link sign prediction
 Test examples:
 
@@ -50,7 +51,8 @@ Test examples:
 
 
 
-**Signed network community detection** :
+**Signed network community detection** :  
+
 The function **DNESBP_CD()** in file “DNESBP_CD.m" can generate low-dimensional node vector representations for signed network community detection
 Test examples:
 
