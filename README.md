@@ -1,9 +1,10 @@
 Code and Datasets for our paper:
 
-X. Shen and F.-L. Chung, "Deep network embedding for graph representation learning in signed networks," IEEE Transactions on Cybernetics, vol. 50, no. 4, pp. 1556-1568, 2020.
+X. Shen and F.-L. Chung, "Deep network embedding for graph representation learning in signed networks," IEEE Transactions on Cybernetics, vol. 50, no. 4, pp. 1556-1568, 2020.  
 
 
-DNE-SBP Model Descriptions:
+
+**DNE-SBP Model Descriptions**:
 
 **Input**:  
 
@@ -28,7 +29,7 @@ Low-dimensional node vector representations learned by DNE-SBP are saved at: "re
 We test DNE-SBP for link sign prediction & signed network community detection.
 
 
-**Link sign prediction**
+**Link sign prediction**  
 The function DNESBP_LP() in file “DNESBP_LP.m" can generate low-dimensional node vector representations for link sign prediction
 Test examples:
 
@@ -46,7 +47,7 @@ Test examples:
 
 
 
-**Signed network community detection**
+**Signed network community detection**  
 The function DNESBP_CD() in file “DNESBP_CD.m" can generate low-dimensional node vector representations for signed network community detection
 Test examples:
 
