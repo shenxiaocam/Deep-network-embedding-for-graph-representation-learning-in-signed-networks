@@ -4,7 +4,7 @@ Code and Datasets for our paper:
 
 
 
-**DNE-SBP Model Descriptions**:
+DNE-SBP Model Descriptions:
 
 
 **Input**:  
@@ -16,22 +16,24 @@ Load ".mat" file and get an input matrix **"Gwl_ud"**, i.e., the signed adjacenc
 
 2) r: 
    #positive edges / #negative edges; 
-   ratio of penalty for reconstruction errors of negative links over that of positive links;
+   ratio of penalty for reconstruction errors of negative links over that of positive links;  
+   
    ratio of weight of pairwise constraints on negatively connected nodes over that of positively connected nodes
 
-3) alfa1: weight of pairwise constraints at 1-st layer of SAE
+3) alfa1: weight of pairwise constraints at 1-st layer of SAE  
+
    alfa2: weight of pairwise constraints at deep layers of SAE
 
 **Output**:  
 
-Low-dimensional node vector representations learned by DNE-SBP are stored in the variable: **rep**  
+Low-dimensional node vector representations learned by DNE-SBP are stored in the variable: **"rep"**  
 
 
 We test DNE-SBP for link sign prediction & signed network community detection.
 
 
 **Link sign prediction**  
-The function DNESBP_LP() in file “DNESBP_LP.m" can generate low-dimensional node vector representations for link sign prediction
+The function **DNESBP_LP()** in file “DNESBP_LP.m" can generate low-dimensional node vector representations for link sign prediction
 Test examples:
 
 1) In MATLAB, run “DNESBP_LP_wiki.m”, “DNESBP_LP_slashdot.m”, “DNESBP_LP_epinions.m” for example link sign prediction results on Wiki, Slashdot and Epinions datasets, respectively.
@@ -49,7 +51,7 @@ Test examples:
 
 
 **Signed network community detection**  
-The function DNESBP_CD() in file “DNESBP_CD.m" can generate low-dimensional node vector representations for signed network community detection
+The function **DNESBP_CD()** in file “DNESBP_CD.m" can generate low-dimensional node vector representations for signed network community detection
 Test examples:
 
 1) In MATLAB, run files “DNESBP_CD_wiki.m”, “DNESBP_CD_slashdot.m”, “DNESBP_CD_epinions.m” for example community detection results on Wiki, Slashdot and Epinions datasets, respectively.
