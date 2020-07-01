@@ -32,7 +32,7 @@ Low-dimensional node vector representations learned by DNE-SBP are stored in the
 
 
 We test DNE-SBP for link sign prediction & signed network community detection.
--------
+==== 
 
 **Link sign prediction**
 -------
