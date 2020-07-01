@@ -31,8 +31,7 @@ Load ".mat" file and get an input matrix **"Gwl_ud"**, i.e., the signed adjacenc
 Low-dimensional node vector representations learned by DNE-SBP are stored in the variable: **"rep"**  
 
 
-We test DNE-SBP for link sign prediction & signed network community detection.
-==== 
+
 
 **Link sign prediction**
 -------
