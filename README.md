@@ -1,8 +1,8 @@
-Matlab Code and Datasets for our paper
+
+
+Deep network embedding for graph representation learning in signed networks
 ==== 
-
-X. Shen and F.-L. Chung, "Deep network embedding for graph representation learning in signed networks," IEEE Transactions on Cybernetics, vol. 50, no. 4, pp. 1556-1568, 2020. 
-
+This repository contains the author's implementation in Matlab for the paper "Deep network embedding for graph representation learning in signed networks".
 
 
 DNE-SBP Model Descriptions
@@ -65,3 +65,6 @@ Test examples:
 3) The error rates of signed network clustering are stored in the variable: “errorAllK”, where 
    each k-th column corresponds to the error rate given a specific number of k clusters.
 
+Please cite our paper as
+==== 
+X. Shen and F.-L. Chung, "Deep network embedding for graph representation learning in signed networks," IEEE Transactions on Cybernetics, vol. 50, no. 4, pp. 1556-1568, 2020. 
